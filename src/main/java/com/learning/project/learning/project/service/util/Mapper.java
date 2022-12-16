@@ -13,9 +13,9 @@ public class Mapper {
 	}
 	
 	
-	public static BrandDTO toBrandDTO(BrandDTO brandDTO) {
+	public static BrandDTO toBrandDTO(Brand brand) {
 	BrandDTO brandDTO2 = new BrandDTO();
-	brandDTO2.setName(brandDTO.getName());
+	brandDTO2.setName(brand.getName());
 	return brandDTO2;
 	}
 }
