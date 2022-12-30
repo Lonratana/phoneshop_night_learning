@@ -24,4 +24,5 @@ public class Model {
 	@JoinColumn(name = "brandId")
 	private Brand brand;
 	
+
 }
